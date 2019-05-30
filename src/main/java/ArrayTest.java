@@ -4,8 +4,11 @@ public class ArrayTest {
         int[] a = new int[10];
         int[] b = new int[10];
 
-        boolean output = ArrayComparator.compare(a,b);
+        int[][] c = new int[10][10];
+        int[][] d = new int[10][10];
+
+        boolean output = ArrayComparator.compare(c,d);
         System.out.println(output);
-        System.out.println(a[1]);
+        System.out.println(c[1]);
     }
 }
