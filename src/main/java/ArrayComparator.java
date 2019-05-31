@@ -22,7 +22,7 @@ public class ArrayComparator {
 
     }
 
-    public static boolean compare(int[][] tabA, int[] tabB[]){
+    public static boolean compare(int[][] tabA, int[][] tabB) {
         boolean output = true;
         if (null == tabA || null == tabB) {
             throw new IllegalArgumentException("Arguments may not be null");
@@ -40,7 +40,6 @@ public class ArrayComparator {
                 output = false;
             }
         }
-
         return output;
     }
 }
